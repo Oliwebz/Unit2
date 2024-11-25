@@ -12,11 +12,12 @@ body, html {
   }
   
 body.Page1 {
-    background-image: url('images/NewBkgp1.jpg');
+    background-image: url('images/FINALbkgpg1.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden; 
+
 }
 
 * {
@@ -24,28 +25,28 @@ body.Page1 {
 }
 
 body.Page2 {
-    background-image: url('images/NewBkgpg2.PNG');
+    background-image: url('images/FINALbkgpg2.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden; 
 }
 body.Page3 {
-    background-image: url('images/NewBkgpg3.PNG');
+    background-image: url('images/FINALbkgpg3.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden; 
 }
 body.Page4 {
-    background-image: url('images/Bkgpg4.PNG');
+    background-image: url('images/FINALbkgpg4.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden; 
 }
 body.Page5 {
-    background-image: url('images/Bkgpg5.PNG');
+    background-image: url('images/FINALbkgpg5.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -242,7 +243,7 @@ body.Page6 {
         overflow: hidden;
         width: 2.8%;
         height: auto;
-        top: 13.7%;
+        top: 14%;
         left: 8.7%;
         position: absolute;
         transition: transform 0.1s ease-in-out;
@@ -253,27 +254,42 @@ body.Page6 {
     }
 
 /* Page 2 Clothes */
-.Clothes {
-    overflow: hidden;
-    width: 36.4%;
-    height: auto;
-    top: 25.5%;
-    left: 4.7%;
-    z-index: 1; 
-    position: absolute;
-    transition: filter 0.2s ease-in-out;
-}
-.Clothes:hover {
-    filter: brightness(1.5);
+.image-container {
+    position: relative; /* Parent container to position the images relative to it */
+    width: 1500px;  /* Set a fixed width or 100% depending on your layout */
+    height: 1500px; /* Set a fixed height or 100% depending on your layout */
+    top: 15%;
 }
 
+.Clothes {
+    position: absolute; 
+    top: 12%;  
+    left: 4.2%;  
+    width: 33%; 
+    height: auto; 
+    z-index: 2;  
+    transition: filter 0.2s ease-in-out;
+}
+
+.Clothes:hover {
+    filter: brightness(1.5); 
+}
+
+.Bigbody {
+    position: absolute; 
+    top: 3%;  
+    left: 4.7%;  
+    width: 44%; 
+    height: auto;
+    z-index: 1; 
+}
 .ClothesText {
     overflow: hidden;
     width: 13%;
     height: auto;
     top: 30%;
     left: 39.3%;
-    z-index: 2; 
+    z-index: 3; 
     position: absolute;
     animation: float 3s ease-in-out infinite;
     transition: filter 0.2s ease-in-out;
