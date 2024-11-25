@@ -1,0 +1,664 @@
+
+body, html {
+    cursor: url('images/ScissorsBlack.cur'), auto; 
+  }
+
+  a:hover {
+    cursor: url('images/Crosshair.cur'), pointer;
+  }
+
+  button, a {
+    cursor: url('images/Crosshair.cur'), pointer;
+  }
+  
+body.Page1 {
+    background-image: url('images/NewBkgp1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+
+* {
+    cursor: inherit;
+}
+
+body.Page2 {
+    background-image: url('images/NewBkgpg2.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+body.Page3 {
+    background-image: url('images/NewBkgpg3.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+body.Page4 {
+    background-image: url('images/Bkgpg4.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+body.Page5 {
+    background-image: url('images/Bkgpg5.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+body.Page6 {
+    background-image: url('images/Bkgpg6.GIF');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+    overflow: hidden;  /* Prevent scrolling */
+}
+    /* Page 1 Mouseover */
+    .MePic {
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        top: 60%;
+        left: 45%;
+        position: absolute;
+      }
+      .MePic:hover {
+        content: url('images/AssetMeHi.PNG');
+        transform: translateX(-70px) translateY(-5px); 
+    }
+
+/* Lettering */
+
+    .LetterM, .LetterY, .LetterS, .LetterE, .LetterL, .LetterF {
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        position: absolute;
+        transition: transform 0.2s ease-in-out, filter 0.3s ease-in-out;
+    }
+    
+    .LetterM {
+        top: 30%;
+        left: 27%;
+        animation: floatM 4s ease-in-out infinite; 
+    }
+    .LetterY {
+        top: 30%;
+        left: 36%;
+        animation: floatY 3.5s ease-in-out infinite; 
+    }
+    .LetterS {
+        top: 30%;
+        left: 42%;
+        animation: floatS 4.2s ease-in-out infinite; 
+    }
+    .LetterE {
+        top: 30%;
+        left: 49%;
+        animation: floatE 3.8s ease-in-out infinite; 
+    }
+    .LetterL {
+        top: 30%;
+        left: 56%;
+        animation: floatL 3.6s ease-in-out infinite; 
+    }
+    .LetterF {
+        top: 30%;
+        left: 64%;
+        animation: floatF 4.1s ease-in-out infinite; 
+    }
+    
+    @keyframes floatM {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-7px); 
+        }
+    }
+    
+    @keyframes floatY {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(6px); 
+        }
+    }
+    
+    @keyframes floatS {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-6px); 
+        }
+    }
+    
+    @keyframes floatE {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(5px); 
+        }
+    }
+    
+    @keyframes floatL {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-5px); 
+        }
+    }
+    
+    @keyframes floatF {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(7px); 
+        }
+    }
+    
+    .LetterM:hover, .LetterY:hover, .LetterS:hover, .LetterE:hover, .LetterF:hover, .LetterL:hover {
+        animation: jiggle 0.3s ease-in-out;
+        filter: brightness(1.2);
+    }
+    
+    @keyframes jiggle {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(5deg);
+        }
+        50% {
+            transform: rotate(0deg);
+        }
+        75% {
+            transform: rotate(-5deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    /* Button Tech */
+    .button1 {
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        top: 8.2%;
+        left: 84.35%;
+        position: absolute;
+        transition: transform 0.2s ease-in-out;
+        z-index: 10;
+    }
+
+    .button1:hover {
+        transform: scale(1.3);
+    }
+    .button2 {
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        top: 8.2%;
+        left: 86.8%;
+        position: absolute;
+        transition: transform 0.1s ease-in-out;
+        z-index: 10;
+    }
+    .button2:hover {
+        transform: scale(1.3);
+    }
+    .button3 {
+        overflow: hidden;
+        width: auto;
+        height: auto;
+        top: 8.2%;
+        left: 89.3%;
+        position: absolute;
+        transition: transform 0.1s ease-in-out;
+        z-index: 10;
+    }
+    .button3:hover {
+        transform: scale(1.3);
+    }
+
+    .BackButton {
+        overflow: hidden;
+        width: 2.8%;
+        height: auto;
+        top: 13.2%;
+        left: 8.7%;
+        position: absolute;
+        transition: transform 0.1s ease-in-out;
+        z-index: 10;
+    }
+    .BackButton:hover {
+        transform: scale(1.3); 
+    }
+
+/* Page 2 Clothes */
+.Clothes {
+    overflow: hidden;
+    width: 36.4%;
+    height: auto;
+    top: 23.5%;
+    left: 4.7%;
+    z-index: 1; 
+    position: absolute;
+    transition: filter 0.2s ease-in-out;
+}
+.Clothes:hover {
+    filter: brightness(1.5);
+}
+
+.ClothesText {
+    overflow: hidden;
+    width: 13%;
+    height: auto;
+    top: 30%;
+    left: 39.3%;
+    z-index: 2; 
+    position: absolute;
+    animation: float 3s ease-in-out infinite;
+    transition: filter 0.2s ease-in-out;
+}
+.ClothesText:hover{
+    filter: brightness(1.3);
+}
+/* Pen Mechanics */
+.Pen {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 30%;
+    left: 73%;
+    position: absolute;
+    z-index: 0; 
+}
+.Pen:hover {
+    animation: shake 0.3s ease-in-out;
+}
+body.Page4 .Pen:hover {
+    animation: none;
+    content: url('images/AssetPensplosion.PNG');
+    transform: translateX(-80px) translateY(35px);
+}
+
+/* Keyframes for pen animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Page 3 Items */
+.Heart {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 43.25%;
+    left: 23.4%;
+    z-index: 4; 
+}
+.Lungs {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 41%;
+    left: 21%;
+    z-index: 2;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.Digest {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 57.5%;
+    left: 21.5%;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.Brain {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 9%;
+    left: 21.5%;
+    z-index: 3;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.Brain:hover, .Digest:hover, .Lungs:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+.Heart:hover {
+    content: url('images/AssetSplat.PNG');
+    transform: translateX(-51px) translateY(-8px);
+}
+.BodyText {
+    overflow: hidden;
+    width: 5.5%;
+    height: auto;
+    top: 64.9%;
+    left: 45.8%;
+    z-index: 10; 
+    position: absolute;
+    animation: float 3s ease-in-out infinite;
+    transition: filter 0.2s ease-in-out;
+}
+.BodyText:hover{
+    filter: brightness(1.2);
+}
+
+
+/* Page 4 Soul */
+.Soul {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 45%;
+    left: 22.8%;
+    z-index: 2;
+    animation: float 2s ease-in-out infinite;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    transition: all 0.3s ease; 
+}
+/* Keyframes for the floating animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+/* Glow (initially hidden) */
+.Glow {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    pointer-events: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Soul .Glow img {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+}
+.Soul:hover .Glow {
+    opacity: 0.8; 
+}
+
+/* Page 5 Elements */
+
+.SoulText {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: 15%;
+    left: 18%;
+    transition: filter 0.2s ease-in-out;
+    animation: float 2s ease-in-out infinite;
+    z-index: 5;
+}
+.SoulText:hover{
+    filter: brightness(1.2);
+}
+.Beams {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    animation: fadeInOutRotate 2s ease-in-out infinite;
+    
+}
+.BeamsDuplicate {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    animation: fadeInOutRotate 5s ease-in-out infinite; 
+    animation-delay: 2s;
+    mix-blend-mode: screen;
+}
+@keyframes fadeInOutRotate {
+    0% {
+        opacity: 0.5; 
+        transform: rotate(-3deg); 
+    }
+    50% {
+        opacity: 1; 
+        transform: rotate(3deg); 
+    }
+    100% {
+        opacity: 0.5; 
+        transform: rotate(-3deg); 
+    }
+}
+.Stars {
+    position: absolute;
+    overflow: hidden;
+    width: 45%;
+    height: auto;
+    top: 35%;
+    left: 23%;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    filter: blur(1px);
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.Gem {
+    position: absolute;
+    overflow: hidden;
+    width: 4%;
+    height: auto;
+    z-index: 5;
+    opacity: 0.4;
+    top: 54%;
+    left: 47%;
+    filter: blur(2px);
+    transition: filter 0.1s ease-in-out;
+}
+.Gem:hover {
+    filter: blur(0px) brightness(1.5); 
+}
+
+/* Page 6 Elements*/
+.Buttonthing {
+    position: absolute;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    opacity: 0.8;
+    top: 75%;
+    left: 21%;
+    filter: blur(1.5px);
+    transition: filter 0.2s ease-in-out;
+}
+.Buttonthing:hover {
+    filter: blur(0px) brightness(1.2); 
+}
+.top-center-text {
+    text-align: center; 
+    padding-top: 100px; 
+    font-size: 120px; 
+    font-family: Brush Script MT; 
+    filter: blur(3px); 
+    transition: filter 0.2s ease-in-out;
+    animation: float 5s ease-in-out infinite; 
+}
+.top-center-text:hover {
+    filter: blur(0px); 
+}
+
+/* Audio control */
+#background-music {
+    display: none;
+}
+
+.custom-button {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    background: transparent; 
+    z-index: 11;
+    cursor: pointer;
+    display: inline-block; 
+    text-align: center;
+}
+
+.custom-button img {
+    width: 50px; 
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.custom-button:hover img {
+    transform: scale(1.2); 
+}
+
+/* Hover text style */
+.custom-button .hover-text {
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    color: rgb(168, 83, 205);
+    font-size: 15px;
+    font-family: cursive;
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.custom-button:hover .hover-text {
+    opacity: 1; 
+}
+
+/* Menu Display */
+.menu-image {
+    width: 87px;
+    height: auto;
+    position: absolute;
+    top: 20.5%;
+    left: 76%;
+    transition: transform 0.2s ease-in-out;
+  }
+  .menu-image:hover {
+    transform: scale(1.2); box-shadow: 0 0 10px 5px rgba(36, 160, 255, 0.733);
+}
+
+  .popup-menu {
+    display: none;
+    position: absolute;
+    background-image: url('images/AssetBubbleMenu.png'); /* Set background image */
+    background-size: 220px; /* Make the image cover the whole menu */
+    background-position: center; /* Center the background image */
+    padding: 10px;
+    box-shadow: 0 2px 20px rgba(141, 209, 255, 0.789);
+    border-radius: 5px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .popup-menu.jiggle-open {
+    animation: jiggleOpen 0.5s ease-in-out forwards;
+    opacity: 1;
+  }
+  
+  .popup-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .popup-menu li {
+    margin: 5px 0;
+  }
+  
+  .popup-menu a {
+    text-decoration: none;
+    color: #1063d0;
+    font-size: 16px;
+    font-family: cursive;
+  }
+  
+  .popup-menu a:hover {
+    color: #1db5f6;
+  }
+
+  @keyframes jiggleOpen {
+    0% {
+      transform: translateY(-10px) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(5deg);
+    }
+    75% {
+      transform: translateY(-10px) rotate(-5deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
+  .popup-menu a.index {
+    animation: hueShift 1s infinite linear; 
+  }
+  
+  @keyframes hueShift {
+    0% {
+      color: #ff37e4; 
+      filter: hue-rotate(0deg); 
+    }
+    50% {
+      color: #00bfff; 
+      filter: hue-rotate(180deg); 
+    }
+    100% {
+      color: #ff37e4; 
+      filter: hue-rotate(360deg); 
+    }
+  }
