@@ -201,7 +201,7 @@ body.Page6 {
         overflow: hidden;
         width: auto;
         height: auto;
-        top: 8.2%;
+        top: 8.7%;
         left: 84.35%;
         position: absolute;
         transition: transform 0.2s ease-in-out;
@@ -215,7 +215,7 @@ body.Page6 {
         overflow: hidden;
         width: auto;
         height: auto;
-        top: 8.2%;
+        top: 8.7%;
         left: 86.8%;
         position: absolute;
         transition: transform 0.1s ease-in-out;
@@ -228,7 +228,7 @@ body.Page6 {
         overflow: hidden;
         width: auto;
         height: auto;
-        top: 8.2%;
+        top: 8.7%;
         left: 89.3%;
         position: absolute;
         transition: transform 0.1s ease-in-out;
@@ -242,7 +242,7 @@ body.Page6 {
         overflow: hidden;
         width: 2.8%;
         height: auto;
-        top: 13.2%;
+        top: 13.7%;
         left: 8.7%;
         position: absolute;
         transition: transform 0.1s ease-in-out;
@@ -257,7 +257,7 @@ body.Page6 {
     overflow: hidden;
     width: 36.4%;
     height: auto;
-    top: 23.5%;
+    top: 25.5%;
     left: 4.7%;
     z-index: 1; 
     position: absolute;
@@ -315,7 +315,7 @@ body.Page4 .Pen:hover {
     overflow: hidden;
     width: auto;
     height: auto;
-    top: 43.25%;
+    top: 44.25%;
     left: 23.4%;
     z-index: 4; 
 }
@@ -324,7 +324,7 @@ body.Page4 .Pen:hover {
     overflow: hidden;
     width: auto;
     height: auto;
-    top: 41%;
+    top: 42%;
     left: 21%;
     z-index: 2;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -334,7 +334,7 @@ body.Page4 .Pen:hover {
     overflow: hidden;
     width: auto;
     height: auto;
-    top: 57.5%;
+    top: 58.5%;
     left: 21.5%;
     z-index: 1;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -344,7 +344,7 @@ body.Page4 .Pen:hover {
     overflow: hidden;
     width: auto;
     height: auto;
-    top: 9%;
+    top: 10%;
     left: 21.5%;
     z-index: 3;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
@@ -577,7 +577,7 @@ body.Page4 .Pen:hover {
     width: 87px;
     height: auto;
     position: absolute;
-    top: 20.5%;
+    top: 21.5%;
     left: 76%;
     transition: transform 0.2s ease-in-out;
   }
